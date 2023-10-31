@@ -23,10 +23,10 @@ public class Main {
             // PLAN OF ATTACK.( use a if else statement to see if the person name is equal to Alice or Bob
             //  then print (reply back its: your not Alice nor Bob if the name is wrong. an if it is on or
             //  the other greeting Alice or bob.)
-        if (name.equals(authorizedUser1)) {
+        if (name.equalsIgnoreCase(authorizedUser1)) {
             System.out.print("Hello and welcome  Alice!");
         }
-        else if (name.equals(authorizedUser2)){
+        else if (name.equalsIgnoreCase(authorizedUser2)){
             System.out.print("Hello and welcome Bob !");
         }
         else
